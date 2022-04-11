@@ -38,8 +38,41 @@ _____________________________
   The objective of this project is to predict credit card holders who will default on their monthly payments based on data gathered on each cardholder. 
 
   
-## Dataset
+## Dataset Source
 
 Source : https://www.kaggle.com/surekharamireddy/credit-data
 
 
+
+## Feature and Description
+
+### CARDHLDR      -1 if application for credit card accepted, 0 if not 
+### DEFAULT       -1 if defaulted 0 if not (observed when CARDHLDR=1, 10,499 observations)
+### AGE           -Age in years plus twelfths of a year
+### ACADMOS       -months living at current address
+### ADEPCNT       -number of dependents
+### MAJORDRG      -Number of major derogatory reports
+### MINORDRG      -Number of minor derogatory reports
+### OWNRENT       -1 if owns their home, 0 if rent
+### INCOME        -Monthly income (divided by 10,000)
+### SELFEMPL      -1 if self employed, 0 if not
+### INCPER        -Income divided by number of dependents
+### EXP_INC       -Ratio of monthly credit card expenditure to yearly income
+### SPENDING      -Average monthly credit card expenditure (for CARDHOLDER = 1)
+### LOGSPEND      -Log of spending
+
+
+__________________________________________________________
+
+# Correlation of Data Features to the Target Default
+
+____________________________________________________________
+
+
+![image](https://user-images.githubusercontent.com/95902075/162658858-feab66d8-45d9-467a-9ff9-ab24495c624a.png)
+
+
+### The correlation matrix shows no strong positive or negative correlations between numeric data.
+
+
+Other Graphs/Variables that show imbalance in Data
