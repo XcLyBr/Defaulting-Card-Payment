@@ -75,6 +75,44 @@ ____________________________________________________________
 ### The correlation matrix shows no strong positive or negative correlations between numeric data.
 
 
-Other Graphs/Variables that show weak correlation in Data
+Other Graphs/Variables in Data
 
 
+![image](https://user-images.githubusercontent.com/95902075/163060012-56c4c497-50e4-4d8e-9486-bce05846a31b.png)
+
+Based on Major Derogatory Reports 
+
+Graph indicated defaulting credit cardholders don't have much derogatory reports on them.
+
+
+![image](https://user-images.githubusercontent.com/95902075/163060299-c34087fa-e108-42d7-b20e-882635c15a5b.png)
+
+
+Based on if cardholder employed (0) or self-employed (1).
+
+Graph indicates employed cardholders tend not to default on their credit card payments.
+
+
+## Results on PREDICTIONS : 
+
+![image](https://user-images.githubusercontent.com/95902075/163064094-766b10bb-a792-41cb-ba44-a61f1204b6c3.png)
+
+
+![image](https://user-images.githubusercontent.com/95902075/163064119-861f2316-cb5f-4045-abc6-c677b8d39c8f.png)
+
+
+![image](https://user-images.githubusercontent.com/95902075/163064149-619d8a96-0505-4c32-8784-221253aec7c8.png)
+
+
+Random Forest Model is recommended due to having the highest Train/Test Accuracy score.
+
+____________________________
+## Conclusion : 
+______________________________
+
+The Dataset had inconsistencies that default payment for credit card holders would not be as accurate as we want. Dataset had inaccuracies and uncertainty in the variables  as stated in the description/content  of the data gathered by the bank. The heatmap showed as well the weak correlation between features and the target. 
+ 
+Recommendations : 
+  - Collection of verified/accurate data.
+  - Add/incorporate additional features/information that could be real/actual reason behind default. 
+  - Information regarding ‘AGE’ be confirmed.
