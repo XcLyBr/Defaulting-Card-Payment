@@ -104,7 +104,7 @@ Graph indicates employed cardholders tend not to default on their credit card pa
 ![image](https://user-images.githubusercontent.com/95902075/163064149-619d8a96-0505-4c32-8784-221253aec7c8.png)
 
 
-Random Forest Model is recommended due to having the highest Train/Test Accuracy score.
+Random Forest Model is recommended due to having the highest Train/Test Accuracy score of .93/.92 respectively.
 
 ____________________________
 ## Conclusion : 
