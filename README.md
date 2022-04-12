@@ -75,4 +75,6 @@ ____________________________________________________________
 ### The correlation matrix shows no strong positive or negative correlations between numeric data.
 
 
-Other Graphs/Variables that show imbalance in Data
+Other Graphs/Variables that show weak correlation in Data
+
+
